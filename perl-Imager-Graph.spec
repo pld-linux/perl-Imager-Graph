@@ -6,7 +6,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Imager
 %define	pnam	Graph
-Summary:	Imager::Graph - producing Graphs using the Imager library
+Summary:	Imager::Graph - producing graphs using the Imager library
 Summary(pl):	Imager::Graph - tworzenie wykresów przy u¿yciu biblioteki Imager
 Name:		perl-Imager-Graph
 Version:	0.03
