@@ -4,8 +4,8 @@
 #			  (fails, probably because of newer Imager)
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Imager
-%define	pnam	Graph
+%define		pdir	Imager
+%define		pnam	Graph
 Summary:	Imager::Graph - producing graphs using the Imager library
 Summary(pl):	Imager::Graph - tworzenie wykresów przy u¿yciu biblioteki Imager
 Name:		perl-Imager-Graph
