@@ -7,7 +7,7 @@
 %define		pdir	Imager
 %define		pnam	Graph
 Summary:	Imager::Graph - producing graphs using the Imager library
-Summary(pl):	Imager::Graph - tworzenie wykresów przy u¿yciu biblioteki Imager
+Summary(pl.UTF-8):   Imager::Graph - tworzenie wykresÃ³w przy uÅ¼yciu biblioteki Imager
 Name:		perl-Imager-Graph
 Version:	0.03
 Release:	1
@@ -28,10 +28,10 @@ Imager::Graph is intended to produce good looking graphs with a
 minimum effort on the part of the user. Currently only the pie graph
 class, Imager::Graph::Pie, is provided.
 
-%description -l pl
-Imager::Graph ma s³u¿yæ do tworzenia dobrze wygl±daj±cych wykresów
-przy minimalnym wysi³ku u¿ytkownika. Aktualnie dostêpna jest tylko
-klasa do wykresów ko³owych - Imager::Graph::Pie.
+%description -l pl.UTF-8
+Imager::Graph ma sÅ‚uÅ¼yÄ‡ do tworzenia dobrze wyglÄ…dajÄ…cych wykresÃ³w
+przy minimalnym wysiÅ‚ku uÅ¼ytkownika. Aktualnie dostÄ™pna jest tylko
+klasa do wykresÃ³w koÅ‚owych - Imager::Graph::Pie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
