@@ -7,7 +7,7 @@
 %define		pdir	Imager
 %define		pnam	Graph
 Summary:	Imager::Graph - producing graphs using the Imager library
-Summary(pl.UTF-8):   Imager::Graph - tworzenie wykresów przy użyciu biblioteki Imager
+Summary(pl.UTF-8):	Imager::Graph - tworzenie wykresów przy użyciu biblioteki Imager
 Name:		perl-Imager-Graph
 Version:	0.03
 Release:	1
