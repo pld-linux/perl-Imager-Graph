@@ -14,8 +14,9 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Imager/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5f95fb7f0d403d959ee86df318325a4b
+URL:		http://search.cpan.org/dist/Imager-Graph/
 BuildRequires:	perl-Imager >= 0.39
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
