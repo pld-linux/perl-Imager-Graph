@@ -3,7 +3,6 @@
 %bcond_with	tests	# perform "make test"
 #			  (fails, probably because of newer Imager)
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Imager
 %define		pnam	Graph
 Summary:	Imager::Graph - producing graphs using the Imager library
