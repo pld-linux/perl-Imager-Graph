@@ -9,7 +9,7 @@ Summary:	Imager::Graph - producing graphs using the Imager library
 Summary(pl.UTF-8):	Imager::Graph - tworzenie wykresów przy użyciu biblioteki Imager
 Name:		perl-Imager-Graph
 Version:	0.09
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
