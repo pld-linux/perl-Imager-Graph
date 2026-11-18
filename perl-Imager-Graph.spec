@@ -1,20 +1,19 @@
 #
 # Conditional build:
-%bcond_with	tests	# perform "make test"
-#			  (fails, probably because of newer Imager)
+%bcond_without	tests	# do not perform "make test"
 #
 %define		pdir	Imager
 %define		pnam	Graph
 Summary:	Imager::Graph - producing graphs using the Imager library
 Summary(pl.UTF-8):	Imager::Graph - tworzenie wykresów przy użyciu biblioteki Imager
 Name:		perl-Imager-Graph
-Version:	0.09
-Release:	2
+Version:	0.12
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Imager/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	5c025695893c5ef192c48f33f5aecc09
+Source0:	https://www.cpan.org/authors/id/T/TO/TONYC/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	cb53a271a1cc574e436eb15fd5999a18
 URL:		http://search.cpan.org/dist/Imager-Graph/
 BuildRequires:	perl-Imager >= 0.39
 BuildRequires:	perl-devel >= 1:5.8.0
